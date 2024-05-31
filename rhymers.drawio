@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T18:34:02.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.4" etag="Bf39CjQQnLbriBKToG8n" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T18:49:27.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="np2Wm3ynMBdiYSSjG8ND" version="24.4.4" type="github">
   <diagram name="Strona-1" id="cDgd7myVllQRQyGmaZzA">
-    <mxGraphModel>
+    <mxGraphModel dx="1539" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-1" value="DefaultRhymerFactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-2" value="Rhymersfactory" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-3" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-1" target="hWHZnMVluy6LuO4f5s4H-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="216" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-4" value="DefaultCountingOutRhymer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="170" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-6" value="HanoiRhymer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-7" value="FIFORhymer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-8" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-4" target="hWHZnMVluy6LuO4f5s4H-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="680" as="sourcePoint" />
+            <mxPoint x="209" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-7" target="hWHZnMVluy6LuO4f5s4H-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="216" y="460" as="sourcePoint" />
+            <mxPoint x="304" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-13" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-6" target="hWHZnMVluy6LuO4f5s4H-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="226" y="470" as="sourcePoint" />
+            <mxPoint x="314" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-14" value="IntLinkedList" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-15" value="IntLinkedListTest" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="680" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-16" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-7" target="hWHZnMVluy6LuO4f5s4H-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.341;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.454;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hWHZnMVluy6LuO4f5s4H-6" target="hWHZnMVluy6LuO4f5s4H-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="68" y="330" as="sourcePoint" />
+            <mxPoint x="2" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-18" value="RhymersDemo" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hWHZnMVluy6LuO4f5s4H-19" value="RhymersJUnitTest" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
