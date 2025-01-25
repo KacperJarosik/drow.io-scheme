@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Strona-1" id="OPua6QMtRrYTettTjcWc">
-    <mxGraphModel dx="1024" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
         <mxCell id="SjfZKKR3_GOXM8YcbIHh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SjfZKKR3_GOXM8YcbIHh-13" target="SjfZKKR3_GOXM8YcbIHh-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SjfZKKR3_GOXM8YcbIHh-13" value="&lt;b&gt;Odczyt wartości kodów AruCo&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="SjfZKKR3_GOXM8YcbIHh-13" value="&lt;b&gt;Odczyt wartości kodów ArUco&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="501.88" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SjfZKKR3_GOXM8YcbIHh-15" value="&lt;b&gt;Czy wartości zdefiniowano?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -112,7 +112,7 @@
             <mxPoint x="800" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjfZKKR3_GOXM8YcbIHh-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1" target="SjfZKKR3_GOXM8YcbIHh-37">
+        <mxCell id="SjfZKKR3_GOXM8YcbIHh-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="SjfZKKR3_GOXM8YcbIHh-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="780" y="160" as="sourcePoint" />
             <mxPoint x="826.92" y="180" as="targetPoint" />
@@ -126,44 +126,53 @@
             <mxPoint x="400" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-1" value="&lt;b&gt;Utworzenie masek grup łączników&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-1" value="&lt;b&gt;Utworzenie masek grup łączników&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="283.75" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-2" value="&lt;b&gt;Wizualizacja efektów końcowych&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-2" value="&lt;b&gt;Erozja masek&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="726.25" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SjfZKKR3_GOXM8YcbIHh-47" target="qVZzo8COclYNq5yPTm4Z-2">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SjfZKKR3_GOXM8YcbIHh-47" target="qVZzo8COclYNq5yPTm4Z-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="815" y="697.25" as="sourcePoint" />
             <mxPoint x="815" y="727.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SjfZKKR3_GOXM8YcbIHh-37" target="qVZzo8COclYNq5yPTm4Z-1">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SjfZKKR3_GOXM8YcbIHh-37" target="qVZzo8COclYNq5yPTm4Z-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="253.75" as="sourcePoint" />
             <mxPoint x="820" y="283.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZzo8COclYNq5yPTm4Z-1" target="SjfZKKR3_GOXM8YcbIHh-41">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qVZzo8COclYNq5yPTm4Z-1" target="SjfZKKR3_GOXM8YcbIHh-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="343.75" as="sourcePoint" />
             <mxPoint x="820" y="373.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-6" value="&lt;b&gt;&lt;i&gt;KONIEC&lt;/i&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-6" value="&lt;b&gt;&lt;i&gt;KONIEC&lt;/i&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="450" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-7" value="&lt;b&gt;&lt;i&gt;KONIEC&lt;/i&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="716.25" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="qVZzo8COclYNq5yPTm4Z-2" target="qVZzo8COclYNq5yPTm4Z-7">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="qVZzo8COclYNq5yPTm4Z-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="500" as="sourcePoint" />
-            <mxPoint x="680" y="450" as="targetPoint" />
+            <mxPoint x="690" y="756.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qVZzo8COclYNq5yPTm4Z-9" value="&lt;b&gt;&lt;i&gt;START&lt;/i&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;(Pobranie obrazu)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qVZzo8COclYNq5yPTm4Z-9" value="&lt;b&gt;&lt;i&gt;START&lt;/i&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;i&gt;(Pobranie obrazu)&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p-zxHvQMki3qKrOrbjYA-1" value="&lt;b&gt;Wizualizacja efektów końcowych&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="726.25" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-zxHvQMki3qKrOrbjYA-2" value="&lt;b&gt;&lt;i&gt;KONIEC&lt;/i&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="716.25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p-zxHvQMki3qKrOrbjYA-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="p-zxHvQMki3qKrOrbjYA-1" target="p-zxHvQMki3qKrOrbjYA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="500" as="sourcePoint" />
+            <mxPoint x="500" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
