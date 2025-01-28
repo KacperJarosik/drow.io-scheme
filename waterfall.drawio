@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Strona-1" id="p3fQTTU_FD1iav3BaK4Q">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PChNRmohW49CEp_Bge75-1" value="START&lt;div&gt;(Pobranie projekt_id)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-2" value="Inicjalizacja zmiennych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-13" value="Pobranie danych z tabel projekty i kamienie_milowe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-14" value="Stworzenie nagłówka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-15" value="stworzenie wierszy kamieni milowych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-1" target="PChNRmohW49CEp_Bge75-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="sourcePoint" />
+            <mxPoint x="150" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-2" target="PChNRmohW49CEp_Bge75-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="240" as="sourcePoint" />
+            <mxPoint x="459.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-21" value="Wyliczenie najwcześniejszego początku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-23" value="Wyliczenie najpóźniejszego końca" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-25" value="Przetworzenie wartości na listę z danego zakresu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-13" target="PChNRmohW49CEp_Bge75-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-13" target="PChNRmohW49CEp_Bge75-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="316" y="350" as="sourcePoint" />
+            <mxPoint x="244" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-21" target="PChNRmohW49CEp_Bge75-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="520" as="sourcePoint" />
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-23" target="PChNRmohW49CEp_Bge75-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="530" as="sourcePoint" />
+            <mxPoint x="468" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-35" value="wyliczenie maks rozmiaru linii" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-25" target="PChNRmohW49CEp_Bge75-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="700" as="sourcePoint" />
+            <mxPoint x="580" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-39" value="wyliczenie ilośći kamieni milowych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-13" target="PChNRmohW49CEp_Bge75-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="650" as="sourcePoint" />
+            <mxPoint x="710" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-41" value="stworzenie odpowiedniego pustego obrazu wynikowego" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-39" target="PChNRmohW49CEp_Bge75-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-35" target="PChNRmohW49CEp_Bge75-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="740" as="sourcePoint" />
+            <mxPoint x="290" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-41" target="PChNRmohW49CEp_Bge75-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="840" as="sourcePoint" />
+            <mxPoint x="360" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PChNRmohW49CEp_Bge75-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PChNRmohW49CEp_Bge75-14" target="PChNRmohW49CEp_Bge75-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="920" as="sourcePoint" />
+            <mxPoint x="270" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
